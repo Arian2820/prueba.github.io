@@ -1,2 +1,4 @@
-var promt("Cual es su anio de nacimiento?")
-document.write("Cual es su anio de nacimiento?")
+var anio=prompt("Cual es su año de nacimiento?");
+anio= parsefloat (anio);
+var edad=(2023)-anio;
+documet.write("La edad del usuario es:"anio)
